@@ -11,6 +11,11 @@ Vue.use(VueRouter)
     component: Home
   },
   {
+    path: '/test',
+    name: 'test',
+    component: Home
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting
